@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.9.0"
   latestRelease: "v0.9.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:24:03Z
+  collectedAt: 2026-09-10T22:28:19Z
 timeline:
   created: 2013-10-27
   lastCommit: 2026-07-18
@@ -88,7 +88,7 @@ total:
   commit: 450
 ---
 path: /home/runner/.x-repo/github.com/raboof/nethogs
-collectedAt: 2026-09-10T21:24:04Z
+collectedAt: 2026-09-10T22:28:20Z
 loc:
   Cpp:
     code: 2376

@@ -12,6 +12,28 @@ Linux 'net top' tool
 x install nethogs
 ```
 
+## 代码规模
+
+合计: **3,515** 行代码（覆盖前 5 种语言、共 **30** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Cpp | 2,376 | 505 | 453 | 13 |
+| CHeader | 385 | 321 | 130 | 10 |
+| C | 277 | 54 | 51 | 1 |
+| Makefile | 189 | 9 | 58 | 4 |
+| Python | 148 | 52 | 37 | 2 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **5.1 / 10**
+
+评分最低的几项:
+
+- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/raboof/nethogs>
@@ -35,30 +57,30 @@ x install nethogs
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 1 | 1 | 1 | 0 | 1 |
 | 90d | 2026-06-12 | 1 | 2 | 1 | 2 | 0 | 1 |
+| last180d | 2026-03-14 | 1 | 3 | 2 | 2 | 0 | 2 |
 | 360d | 2025-09-15 | 1 | 3 | 3 | 3 | 2 | 4 |
+| last720d | 2024-09-20 | 2 | 7 | 5 | 8 | 9 | 24 |
 
-## 代码规模
+## 发行版状态
 
-合计: **3,515** 行代码（覆盖前 5 种语言、共 **30** 个文件）。
+在 [repology.org](https://repology.org/project/nethogs) 上共有 **125** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**96** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Cpp | 2,376 | 505 | 453 | 13 |
-| CHeader | 385 | 321 | 130 | 10 |
-| C | 277 | 54 | 51 | 1 |
-| Makefile | 189 | 9 | 58 | 4 |
-| Python | 148 | 52 | 37 | 2 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **5.1 / 10**
-
-评分最低的几项:
-
-- **Dangerous-Workflow** (-1/10) — no workflows found
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (-1/10) — No tokens found
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.9.0` | ✅ latest |
+| Debian 14 | `0.9.0` | ✅ latest |
+| Debian 13 | `0.8.8` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.8.8` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.8.7` | ⚠️ outdated |
+| Arch | `0.8.8` | ⚠️ outdated |
+| Homebrew | `0.9.0` | ✅ latest |
+| Fedora rawhide | `0.9.0` | ✅ latest |
+| Nix unstable | `0.9.0` | ✅ latest |
+| Void | `0.8.8` | ⚠️ outdated |
+| Alpine edge | `0.8.8` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.9.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -69,4 +91,4 @@ nethogs 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T18:30:31Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:24:09Z._

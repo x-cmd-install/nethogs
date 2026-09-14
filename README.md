@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,693 · **Forks**: 300 · **Open issues**: 189 · **Contributors**: 54
+- **Stars**: 3,697 · **Forks**: 300 · **Open issues**: 189 · **Contributors**: 54
 
 ## Totals (cumulative)
 
@@ -56,31 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 1 | 1 | 1 | 0 | 0 |
-| 90d | 2026-06-15 | 1 | 2 | 1 | 2 | 0 | 1 |
-| last180d | 2026-03-17 | 1 | 3 | 2 | 2 | 0 | 2 |
-| 360d | 2025-09-18 | 1 | 3 | 3 | 3 | 2 | 4 |
-| last720d | 2024-09-23 | 2 | 7 | 5 | 8 | 9 | 22 |
-
-## Distribution status
-
-Reported by **125** distros on [repology.org](https://repology.org/project/nethogs). **19** are ✅ on the latest upstream release, **96** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.9.0` | ✅ latest |
-| Debian 14 | `0.9.0` | ✅ latest |
-| Debian 13 | `0.8.8` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.8.8` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.8.7` | ⚠️ outdated |
-| Arch | `0.8.8` | ⚠️ outdated |
-| Homebrew | `0.9.0` | ✅ latest |
-| Fedora rawhide | `0.9.0` | ✅ latest |
-| Nix unstable | `0.9.0` | ✅ latest |
-| Void | `0.8.8` | ⚠️ outdated |
-| Alpine edge | `0.8.8` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.9.0` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 1 | 1 | 1 | 0 | 0 |
+| 90d | 2026-06-16 | 1 | 2 | 1 | 2 | 0 | 1 |
+| last180d | 2026-03-18 | 1 | 3 | 2 | 2 | 0 | 2 |
+| 360d | 2025-09-19 | 1 | 3 | 3 | 3 | 1 | 4 |
+| last720d | 2024-09-24 | 2 | 7 | 5 | 8 | 9 | 22 |
 
 ## Improve this data
 
@@ -91,4 +72,4 @@ Install metadata for nethogs lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:28:49Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:52:07Z._

@@ -26,12 +26,12 @@ Total: **3,515** lines of code across **30** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.1 / 10**
+Overall score: **5 / 10**
 
 Lowest-scoring checks:
 
-- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-18 | 0 | 0 | 1 | 1 | 0 | 0 |
-| 90d | 2026-06-18 | 1 | 2 | 1 | 1 | 0 | 1 |
-| last180d | 2026-03-20 | 1 | 3 | 2 | 2 | 0 | 2 |
-| 360d | 2025-09-21 | 1 | 3 | 3 | 3 | 1 | 4 |
-| last720d | 2024-09-26 | 2 | 7 | 5 | 8 | 9 | 22 |
+| 30d | 2026-08-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-19 | 0 | 0 | 1 | 1 | 0 | 0 |
+| 90d | 2026-06-19 | 1 | 2 | 1 | 1 | 0 | 1 |
+| last180d | 2026-03-21 | 1 | 3 | 2 | 2 | 0 | 2 |
+| 360d | 2025-09-22 | 1 | 3 | 3 | 3 | 1 | 4 |
+| last720d | 2024-09-27 | 2 | 7 | 5 | 8 | 9 | 22 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for nethogs lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T06:47:11Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:51:47Z._

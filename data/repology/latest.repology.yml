@@ -1,3 +1,14 @@
+- repo: nix_stable_25_11
+  srcname: nethogs
+  visiblename: nethogs
+  version: 0.8.8
+  origversion: null
+  status: outdated
+  summary: Small 'net top' tool, grouping bandwidth by process
+  maintainers:
+    - robert@rycee.net
+  licenses:
+    - GPL-2.0-or-later
 - repo: raspbian_testing
   subrepo: main
   srcname: nethogs
@@ -14,229 +25,210 @@
     - mpolkorny@gmail.com
   categories:
     - net
-- repo: manjaro_testing
-  subrepo: extra
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: nethogs
+  binnames:
+    - nethogs
+  visiblename: nethogs
+  version: 0.8.7
+  origversion: 0.8.7-2
+  status: outdated
+  maintainers:
+    - kretcheu@gmail.com
+  categories:
+    - net
+- repo: alpine_3_17
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs-doc
+  visiblename: nethogs-doc
+  version: 0.8.7
+  origversion: 0.8.7-r0
+  status: outdated
+  summary: Top-like monitor for network traffic (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
   srcname: nethogs
   binname: nethogs
   visiblename: nethogs
-  version: 0.9.0
-  origversion: 0.9.0-1
-  status: newest
-  summary: A net top tool which displays traffic used per process instead of per IP or interface
+  version: 0.8.7
+  origversion: 0.8.7-r0
+  status: outdated
+  summary: Top-like monitor for network traffic
+  maintainers:
+    - jakub@jirutka.cz
   licenses:
     - GPL-2.0-or-later
-- repo: chromebrew
+- repo: alpine_3_18
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs
+  visiblename: nethogs
+  version: 0.8.7
+  origversion: 0.8.7-r0
+  status: outdated
+  summary: Top-like monitor for network traffic
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs-doc
+  visiblename: nethogs-doc
+  version: 0.8.7
+  origversion: 0.8.7-r0
+  status: outdated
+  summary: Top-like monitor for network traffic (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs
+  visiblename: nethogs
+  version: 0.8.7
+  origversion: 0.8.7-r0
+  status: outdated
+  summary: Top-like monitor for network traffic
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs-doc
+  visiblename: nethogs-doc
+  version: 0.8.7
+  origversion: 0.8.7-r0
+  status: outdated
+  summary: Top-like monitor for network traffic (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs
+  visiblename: nethogs
+  version: 0.8.7
+  origversion: 0.8.7-r0
+  status: outdated
+  summary: Top-like monitor for network traffic
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs-doc
+  visiblename: nethogs-doc
+  version: 0.8.7
+  origversion: 0.8.7-r0
+  status: outdated
+  summary: Top-like monitor for network traffic (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs
+  visiblename: nethogs
+  version: 0.8.8
+  origversion: 0.8.8-r0
+  status: outdated
+  summary: Top-like monitor for network traffic
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs-doc
+  visiblename: nethogs-doc
+  version: 0.8.8
+  origversion: 0.8.8-r0
+  status: outdated
+  summary: Top-like monitor for network traffic (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs
+  visiblename: nethogs
+  version: 0.8.8
+  origversion: 0.8.8-r0
+  status: outdated
+  summary: Top-like monitor for network traffic
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs-doc
+  visiblename: nethogs-doc
+  version: 0.8.8
+  origversion: 0.8.8-r0
+  status: outdated
+  summary: Top-like monitor for network traffic (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs
+  visiblename: nethogs
+  version: 0.8.8
+  origversion: 0.8.8-r0
+  status: outdated
+  summary: Top-like monitor for network traffic
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: nethogs
+  binname: nethogs-doc
+  visiblename: nethogs-doc
+  version: 0.8.8
+  origversion: 0.8.8-r0
+  status: outdated
+  summary: Top-like monitor for network traffic (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_11
   srcname: nethogs
   visiblename: nethogs
-  version: 0.9.0
+  version: 0.8.8
   origversion: null
-  status: newest
-  summary: Linux 'net top' tool
-  licenses:
-    - GPL-2
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nethogs
-  binname: nethogs
-  visiblename: nethogs
-  version: 0.9.0
-  origversion: 0.9.0-1
-  status: newest
-  summary: A net top tool which displays traffic used per process instead of per IP or interface
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs
-  visiblename: nethogs
-  version: 0.8.7
-  origversion: 0.8.7-r0
   status: outdated
-  summary: Top-like monitor for network traffic
+  summary: Small 'net top' tool, grouping bandwidth by process
   maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs-doc
-  visiblename: nethogs-doc
-  version: 0.8.7
-  origversion: 0.8.7-r0
-  status: outdated
-  summary: Top-like monitor for network traffic (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs
-  visiblename: nethogs
-  version: 0.8.7
-  origversion: 0.8.7-r0
-  status: outdated
-  summary: Top-like monitor for network traffic
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs-doc
-  visiblename: nethogs-doc
-  version: 0.8.7
-  origversion: 0.8.7-r0
-  status: outdated
-  summary: Top-like monitor for network traffic (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs
-  visiblename: nethogs
-  version: 0.8.7
-  origversion: 0.8.7-r0
-  status: outdated
-  summary: Top-like monitor for network traffic
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs-doc
-  visiblename: nethogs-doc
-  version: 0.8.7
-  origversion: 0.8.7-r0
-  status: outdated
-  summary: Top-like monitor for network traffic (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs
-  visiblename: nethogs
-  version: 0.8.7
-  origversion: 0.8.7-r0
-  status: outdated
-  summary: Top-like monitor for network traffic
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs-doc
-  visiblename: nethogs-doc
-  version: 0.8.7
-  origversion: 0.8.7-r0
-  status: outdated
-  summary: Top-like monitor for network traffic (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs
-  visiblename: nethogs
-  version: 0.8.8
-  origversion: 0.8.8-r0
-  status: outdated
-  summary: Top-like monitor for network traffic
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs-doc
-  visiblename: nethogs-doc
-  version: 0.8.8
-  origversion: 0.8.8-r0
-  status: outdated
-  summary: Top-like monitor for network traffic (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs
-  visiblename: nethogs
-  version: 0.8.8
-  origversion: 0.8.8-r0
-  status: outdated
-  summary: Top-like monitor for network traffic
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs-doc
-  visiblename: nethogs-doc
-  version: 0.8.8
-  origversion: 0.8.8-r0
-  status: outdated
-  summary: Top-like monitor for network traffic (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: aur
-  srcname: nethogs-git
-  binname: nethogs-git
-  visiblename: nethogs-git
-  version: 0.8.7.r21.g2497311
-  origversion: 0.8.7.r21.g2497311-1
-  status: rolling
-  summary: A net top tool which displays traffic used per process instead of per IP or interface. GIT version
-  maintainers:
-    - eduardoeae@aur
-  licenses:
-    - GPL
-- repo: alpine_3_23
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs
-  visiblename: nethogs
-  version: 0.8.8
-  origversion: 0.8.8-r0
-  status: outdated
-  summary: Top-like monitor for network traffic
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: nethogs
-  binname: nethogs-doc
-  visiblename: nethogs-doc
-  version: 0.8.8
-  origversion: 0.8.8-r0
-  status: outdated
-  summary: Top-like monitor for network traffic (documentation)
-  maintainers:
-    - jakub@jirutka.cz
+    - robert@rycee.net
   licenses:
     - GPL-2.0-or-later
 - repo: alpine_3_24
@@ -368,19 +360,27 @@
   summary: A net top tool which displays traffic used per process instead of per IP or interface
   licenses:
     - GPL-2.0-or-later
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: nethogs
-  binnames:
-    - nethogs
-  visiblename: nethogs
-  version: 0.8.7
-  origversion: 0.8.7-2
-  status: outdated
+- repo: aur
+  srcname: nethogs-git
+  binname: nethogs-git
+  visiblename: nethogs-git
+  version: 0.8.7.r21.g2497311
+  origversion: 0.8.7.r21.g2497311-1
+  status: rolling
+  summary: A net top tool which displays traffic used per process instead of per IP or interface. GIT version
   maintainers:
-    - kretcheu@gmail.com
-  categories:
-    - net
+    - eduardoeae@aur
+  licenses:
+    - GPL
+- repo: chromebrew
+  srcname: nethogs
+  visiblename: nethogs
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Linux 'net top' tool
+  licenses:
+    - GPL-2
 - repo: debian_11
   subrepo: bullseye/main
   srcname: nethogs
@@ -550,33 +550,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: nethogs
-  binnames:
-    - nethogs
-    - nethogs-debuginfo
-    - nethogs-debugsource
-  visiblename: nethogs
-  version: 0.8.8
-  origversion: 0.8.8-1.fc40
-  status: outdated
-  summary: A tool resembling top for network traffic
-  licenses:
-    - GPL-1.0-or-later
-  categories:
-    - Unspecified
-- repo: nix_stable_24_05
-  srcname: nethogs
-  visiblename: nethogs
-  version: 0.8.7
-  origversion: null
-  status: outdated
-  summary: A small 'net top' tool, grouping bandwidth by process
-  maintainers:
-    - robert@rycee.net
-  licenses:
-    - GPL-2.0-or-later
-- repo: fedora_40
   subrepo: release
   srcname: nethogs
   binnames:
@@ -592,6 +565,33 @@
     - GPL+
   categories:
     - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: nethogs
+  binnames:
+    - nethogs
+    - nethogs-debuginfo
+    - nethogs-debugsource
+  visiblename: nethogs
+  version: 0.8.8
+  origversion: 0.8.8-1.fc40
+  status: outdated
+  summary: A tool resembling top for network traffic
+  licenses:
+    - GPL-1.0-or-later
+  categories:
+    - Unspecified
+- repo: nix_stable_25_05
+  srcname: nethogs
+  visiblename: nethogs
+  version: 0.8.8
+  origversion: null
+  status: outdated
+  summary: Small 'net top' tool, grouping bandwidth by process
+  maintainers:
+    - robert@rycee.net
+  licenses:
+    - GPL-2.0-or-later
 - repo: fedora_41
   subrepo: release
   srcname: nethogs
@@ -690,18 +690,6 @@
     - GPL-1.0-or-later
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: net/nethogs
-  binname: nethogs
-  visiblename: net/nethogs
-  version: 0.8.8
-  origversion: null
-  status: outdated
-  summary: Small net top tool
-  maintainers:
-    - anastasios@mageirias.com
-  categories:
-    - net
 - repo: raspbian_stable
   subrepo: main
   srcname: nethogs
@@ -713,6 +701,18 @@
   status: outdated
   maintainers:
     - kretcheu@gmail.com
+  categories:
+    - net
+- repo: freebsd
+  srcname: net/nethogs
+  binname: nethogs
+  visiblename: net/nethogs
+  version: 0.8.8
+  origversion: null
+  status: outdated
+  summary: Small net top tool
+  maintainers:
+    - anastasios@mageirias.com
   categories:
     - net
 - repo: gentoo
@@ -741,17 +741,6 @@
     - GPL-2
   categories:
     - net-analyzer
-- repo: nix_stable_24_11
-  srcname: nethogs
-  visiblename: nethogs
-  version: 0.8.8
-  origversion: null
-  status: outdated
-  summary: Small 'net top' tool, grouping bandwidth by process
-  maintainers:
-    - robert@rycee.net
-  licenses:
-    - GPL-2.0-or-later
 - repo: gentoo
   srcname: net-analyzer/nethogs
   visiblename: net-analyzer/nethogs
@@ -909,24 +898,35 @@
   summary: A net top tool which displays traffic used per process instead of per IP or interface
   licenses:
     - GPL-2.0-or-later
-- repo: nix_stable_25_05
+- repo: manjaro_testing
+  subrepo: extra
   srcname: nethogs
+  binname: nethogs
   visiblename: nethogs
-  version: 0.8.8
-  origversion: null
-  status: outdated
-  summary: Small 'net top' tool, grouping bandwidth by process
-  maintainers:
-    - robert@rycee.net
+  version: 0.9.0
+  origversion: 0.9.0-1
+  status: newest
+  summary: A net top tool which displays traffic used per process instead of per IP or interface
   licenses:
     - GPL-2.0-or-later
-- repo: nix_stable_25_11
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nethogs
+  binname: nethogs
+  visiblename: nethogs
+  version: 0.9.0
+  origversion: 0.9.0-1
+  status: newest
+  summary: A net top tool which displays traffic used per process instead of per IP or interface
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_05
   srcname: nethogs
   visiblename: nethogs
-  version: 0.8.8
+  version: 0.8.7
   origversion: null
   status: outdated
-  summary: Small 'net top' tool, grouping bandwidth by process
+  summary: A small 'net top' tool, grouping bandwidth by process
   maintainers:
     - robert@rycee.net
   licenses:
@@ -1177,18 +1177,6 @@
   categories:
     - Monitoring
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: nethogs
-  visiblename: nethogs
-  version: 0.8.5
-  origversion: 0.8.5-1.34
-  status: outdated
-  summary: Network Bandwidth Usage Monitor
-  licenses:
-    - GPL-2.0+
-  categories:
-    - Productivity/Networking/Diagnostic
-- repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: nethogs
   visiblename: nethogs
@@ -1198,6 +1186,18 @@
   summary: Network Bandwidth Usage Monitor
   licenses:
     - GPL-2.0-or-later
+  categories:
+    - Productivity/Networking/Diagnostic
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: nethogs
+  visiblename: nethogs
+  version: 0.8.5
+  origversion: 0.8.5-1.34
+  status: outdated
+  summary: Network Bandwidth Usage Monitor
+  licenses:
+    - GPL-2.0+
   categories:
     - Productivity/Networking/Diagnostic
 - repo: opensuse_leap_15_6
@@ -1253,7 +1253,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: nethogs
   binnames:
     - nethogs
@@ -1266,7 +1266,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: nethogs
   binnames:
     - nethogs
@@ -1293,19 +1293,6 @@
   version: 0.9.0
   origversion: 0.9.0-1
   status: newest
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: nethogs
-  binnames:
-    - nethogs
-  visiblename: nethogs
-  version: 0.8.5
-  origversion: 0.8.5-2
-  status: outdated
-  maintainers:
-    - kretcheu@gmail.com
-  categories:
-    - net
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: nethogs

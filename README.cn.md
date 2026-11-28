@@ -56,31 +56,12 @@ x install nethogs
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-29 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-31 | 1 | 3 | 2 | 2 | 0 | 2 |
-| 360d | 2025-12-02 | 1 | 3 | 2 | 2 | 0 | 4 |
-| last720d | 2024-12-07 | 1 | 7 | 5 | 6 | 8 | 22 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/nethogs) 上共有 **122** 个发行版报告此项目。**31** 个 ✅ 已是最新上游版本，**80** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.9.0` | ✅ latest |
-| Debian 14 | `0.9.0` | ✅ latest |
-| Debian 13 | `0.8.8` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.8.8` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.8.7` | ⚠️ outdated |
-| Arch | `0.9.0` | ✅ latest |
-| Homebrew | `0.9.0` | ✅ latest |
-| Fedora rawhide | `0.9.0` | ✅ latest |
-| Nix unstable | `0.9.0` | ✅ latest |
-| Void | `0.8.8` | ⚠️ outdated |
-| Alpine edge | `0.8.8` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.9.0` | ✅ latest |
+| 30d | 2026-10-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-06-01 | 1 | 3 | 2 | 2 | 0 | 2 |
+| 360d | 2025-12-03 | 1 | 3 | 2 | 2 | 0 | 4 |
+| last720d | 2024-12-08 | 1 | 7 | 5 | 6 | 8 | 22 |
 
 ## 改进这些数据
 
@@ -91,4 +72,4 @@ nethogs 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T09:58:48Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T08:54:43Z._
